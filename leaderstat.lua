@@ -18,3 +18,10 @@ end)
 game.Players.PlayerRemoving:Connect(function(Player)
 	PointsStore:SetAsync("user_"..Player.UserId, Player.leaderstats.Points.Value)
 end)
+
+
+-- This script needs fixing, it does work but no one can gain points. We are creating a way to add points by either pressing a button or playing by minutes.
+
+--We might make it work so if you are in a group it gives you a certain amount of Points only once.
+
+--Planning on to rename the Points leaderstat.
