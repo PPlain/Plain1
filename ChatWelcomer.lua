@@ -5,3 +5,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
     FontSize = Enum.FontSize.Size24;
 
 -- CREATE A LOCAL SCRIPT IN StarterCharacterScripts
+
+--If you want it to say the players name in the Text put this.
+
+-- Text = "Welcome to my game .. player.Name .." 
